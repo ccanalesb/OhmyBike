@@ -1,12 +1,10 @@
 <html>
 	<link rel="shortcut icon" href="http://favicon-generator.org/favicons/2014-06-17/73652ad11738752e25fd83969daed401.ico"> 
-	<br>     
-	<center><img src="http://i1081.photobucket.com/albums/j345/dennis_yeah/aa_zps23932162.png~original" class="img-rounded"></center>
-    <link href="css/bootstrap.css" rel="stylesheet">
+	<br> 
     <link rel="stylesheet" href="css/datepicker.css">
-    <!-- <body background="http://p1.pichost.me/i/45/1685509.jpg"> -->
-
-    <script src="js/jquery-2.1.1.js"></script>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/vendor/modernizr.js"></script>
     <script src="js/bootstrap-datepicker.js"></script>
     <script src="js/jquery.Rut.js"></script> 
     <script type="text/javascript">
@@ -23,5 +21,11 @@
                 on_error: function(){ alert('Rut incorrecto');}
             });
         });
+    </script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.topbar.js"></script>
+    <script>
+        $(document).foundation();
     </script>
 </html>

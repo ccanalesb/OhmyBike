@@ -5,7 +5,7 @@ $pass="base2014";
 $bdname="b18612358_ohmybike";
 $connect= pg_connect("host=$host user=$user password=$pass dbname=$bdname");
 if(!$connect)
-   echo "<h1>[No Conecto]</h1>";
+   echo "<h4>Error de conexion</h4>";
 else 
     echo "";
 ?>

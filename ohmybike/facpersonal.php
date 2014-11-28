@@ -32,11 +32,10 @@
 			    
 			}
 			else {
-				echo "<center><p><h1>Por favor, complete el <a href=\"acpersonal.php\">formulario</a></p></center>";
+				echo "<center><p><h1>Por favor, complete el formulario</a></p></center>";
 			}
 
-			echo "<center><a class=\"btn btn-info\" href=\"personal.php\">Personal</a></center>";
-			echo "<br><br>";
+			header("Location: home.php");
 			?> 
     </body>
 </html>

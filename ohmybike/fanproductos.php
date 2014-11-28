@@ -27,10 +27,9 @@
 			    
 			}
 			else {
-				echo "<center><p><h1>Por favor, complete el  <a href=\"bproductos.php\">formulario</a></p></center>";
+				echo "<center><p><h1>Por favor, complete el formulario</a></p></center>";
 			}
-			echo "<br><br>";
-			echo "<center><a class=\"btn btn-info\" href=\"productos.php\">Producto</a></center>";            
+			header("Location: home.php");            
 			?> 
     </body>
 </html>

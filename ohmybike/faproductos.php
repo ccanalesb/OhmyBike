@@ -75,10 +75,10 @@
 			}
 
 			else if ($entro == false){
-				echo "<center><p><h1>Por favor, complete el  <a href=\"aproductos.php\">formulario</a></p></center>";
+				echo "<center><p><h1>Por favor, complete el formulario</a></p></center>";
 			}
 			
-			echo "<center><a class=\"btn btn-info\" href=\"productos.php\">Producto</a></center>";  			            
+			header("Location: home.php");		            
 			?> 
 
     </body>

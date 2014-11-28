@@ -1,0 +1,16 @@
+body{
+  background-color: #f1f1f1;
+}
+
+.tabs dd.active a, .tabs .tab-title.active a {
+    background-color: #333333;
+    color: white; 
+}
+
+.success{
+	background-color: green;
+}
+
+.danger{
+	background-color: red;
+}

@@ -60,9 +60,9 @@
 			    
 			}
 			else {
-				echo "<center><p><h1>Por favor, complete el  <a href=\"acventa.php\">formulario</a></p></center>";
+				echo "<center><p><h1>Por favor, complete el formulario</a></p></center>";
 			}
-			echo "<center><a class=\"btn btn-info\" href=\"ventas.php\">Venta</a></center>";   
+			header("Location: home.php"); 
 			?> 
     </body>
 </html>
